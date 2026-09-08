@@ -24,8 +24,8 @@ body:
     attributes:
       label: ¿Qué problema resuelve?
       description: >-
-        Un problema real y local. Mejor si es algo que les pasó a ustedes o a
-        alguien que conocen. Dos o tres líneas.
+        Un problema real. Mejor si es algo que les pasó a ustedes o a alguien
+        que conocen. Dos o tres líneas.
       placeholder: >-
         En los buses de Barranquilla toca pagar en efectivo y nadie tiene
         sencillo. El conductor pierde tiempo dando cambio en cada parada.
