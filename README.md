@@ -46,6 +46,21 @@ contribuciones de cada universidad se reconocen en vivo en la Sesión 3.
 
 ---
 
+## Tu tarea de la Sesión 3
+
+Modificas el contrato, lo compilas, despliegas **tu propia campaña** en testnet
+y la registras por pull request.
+
+### 👉 [Ver el taller de la Sesión 3](./retos/sesion-3)
+
+**Sin instalar nada** — Rust y el Stellar CLI ya vienen listos:
+[abrir en Codespaces](https://codespaces.new/QuillaBlocks/crowdfunding-dapp?quickstart=1)
+
+Y publica la idea de producto de tu equipo:
+[abrir el issue de idea](https://github.com/QuillaBlocks/stellar-campus/issues/new?template=idea-proyecto.yml)
+
+---
+
 ## Formulario de la sesión
 
 Además del issue, llena el formulario con tu nombre, correo, usuario de GitHub, clave
@@ -120,8 +135,8 @@ Revisión pública de los pull requests recibidos, con premio a la mejor contrib
 cada universidad. Luego modificas el contrato antes de desplegarlo, compilas, obtienes tu
 propio Wasm y despliegas tu instancia en testnet como administrador de tu campaña.
 
-Registras tu despliegue con un pull request a [`campanas/`](./campanas) y contribuyes a
-las campañas de tus compañeros.
+Registras tu despliegue con un pull request a [`campanas/`](./campanas). El paso a paso
+está en [`retos/sesion-3`](./retos/sesion-3).
 
 Cierre con ideación en equipos y la ruta completa del ecosistema: bootcamp con Ruta N,
 Demo Day, hackathon y financiamiento vía SCF.

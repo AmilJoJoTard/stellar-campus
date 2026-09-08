@@ -1,0 +1,89 @@
+name: Idea de proyecto (Sesión 3)
+description: Publica la idea de tu equipo. Este issue es tu pitch.
+title: "Idea: "
+labels: ["sesion-3", "idea-proyecto"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tienen **10 minutos** para llenar esto y **90 segundos** para presentarlo.
+
+        No hay que hacer diapositivas: vamos a proyectar este issue mientras
+        ustedes hablan. Escriban claro y corto — eso es el pitch.
+
+  - type: input
+    id: producto
+    attributes:
+      label: ¿Cómo se llama?
+      placeholder: PagaFácil, VacaBarrio, TranspiCosta…
+    validations:
+      required: true
+
+  - type: textarea
+    id: problema
+    attributes:
+      label: ¿Qué problema resuelve?
+      description: >-
+        Un problema real y local. Mejor si es algo que les pasó a ustedes o a
+        alguien que conocen. Dos o tres líneas.
+      placeholder: >-
+        En los buses de Barranquilla toca pagar en efectivo y nadie tiene
+        sencillo. El conductor pierde tiempo dando cambio en cada parada.
+    validations:
+      required: true
+
+  - type: textarea
+    id: usuarios
+    attributes:
+      label: ¿Quién lo usaría?
+      description: Sé concreto. No «todos» — di quién exactamente.
+      placeholder: Los pasajeros del transporte público y los conductores.
+    validations:
+      required: true
+
+  - type: textarea
+    id: stellar
+    attributes:
+      label: ¿Cómo usa Stellar?
+      description: >-
+        Qué parte de su producto corre sobre Stellar y por qué ayuda: pagos en
+        segundos, costo por debajo de un centavo, un contrato que guarda el
+        dinero con reglas, un anchor para entrar y salir a pesos, un token
+        propio… Lo que aplique a su caso.
+      placeholder: >-
+        Cada pago va como una transacción en Stellar: se confirma en 5 segundos
+        y cuesta menos de un centavo, así que sí sirve para un pasaje de 2.900
+        pesos. Un anchor convierte a pesos para que el conductor retire.
+    validations:
+      required: true
+
+  - type: textarea
+    id: como
+    attributes:
+      label: ¿Cómo funcionaría? En tres pasos
+      description: Del punto de vista del usuario, no del código.
+      placeholder: |
+        1. El pasajero abre la app y acerca el celular al lector del bus
+        2. Se envía el pago y suena la confirmación
+        3. Al final del día el conductor retira a pesos
+    validations:
+      required: true
+
+  - type: input
+    id: equipo
+    attributes:
+      label: ¿Quiénes son?
+      description: Usuarios de GitHub del equipo, separados por comas.
+      placeholder: miguelnietoa, athomserx, otro-usuario
+    validations:
+      required: true
+
+  - type: dropdown
+    id: sede
+    attributes:
+      label: Sede
+      options:
+        - Universidad de la Costa (CUC)
+        - Universidad del Norte
+    validations:
+      required: true
