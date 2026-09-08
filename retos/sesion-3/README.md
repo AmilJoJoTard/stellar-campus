@@ -78,7 +78,7 @@ if amount > MAX_CONTRIBUTION {         // ← agrega estas tres líneas
 ### 1.4 · Compila
 
 ```bash
-stellar contract build --manifest-path contracts/crowdfunding/Cargo.toml
+stellar contract build
 ```
 
 Si dice `✅ Build Complete`, tu Wasm ya es **distinto al original**. Acabas de
