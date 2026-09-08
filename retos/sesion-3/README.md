@@ -189,11 +189,12 @@ Para que quede en el registro público del programa, agrega tu archivo a
   "descripcion": "Una línea sobre qué financia",
   "contract_id": "TU_CONTRACT_ID",
   "github": "tu-usuario",
-  "red": "testnet",
-  "sede": "cuc",
-  "max_contribution": "25 XLM"
+  "sede": "uninorte"
 }
 ```
+
+> Si te pierdes, abre [`campanas/ejemplo.json`](../../campanas/ejemplo.json):
+> es un archivo real y válido. Cópialo y cámbiale los valores.
 
 5. Abajo: **Create a new branch and start a pull request**
 6. **Propose changes** → **Create pull request**
